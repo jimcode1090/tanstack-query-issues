@@ -34,7 +34,7 @@ export const IssueItem = ({issue}: Props) => {
             updatedAt: Date.now() + 1000 * 60
         });
     }
-    
+
     return (
         <div
             onMouseEnter={presetData}
